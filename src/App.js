@@ -74,7 +74,7 @@ function App() {
   // returning the Tours.js component in which are located all Tour.js components form api
   return (
     //passing tours that is storing the data form api as props in Tours component
-    //passign removeTour as a props to tours component
+    //passing removeTour as a props to tours component
     <main>
       <Tours tours = {tours} removeTour = {removeTour}/>
     </main>);
